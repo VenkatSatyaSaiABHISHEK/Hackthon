@@ -116,11 +116,11 @@ export default function HomePage() {
             
             {/* Right Content - Lottie Animation */}
             <div className="flex items-center justify-center animate-scale-in">
-              <div className="relative w-full max-w-3xl">
+              <div className="relative w-full max-w-15xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-400 to-teal-400 rounded-full blur-3xl opacity-30 scale-125"></div>
                 <div className="relative">
                   <DotLottieReact
-                    src="https://lottie.host/e334087f-80ce-4b04-91b4-b83181b81606/KfEewY19c6.lottie"
+                    src="https://lottie.host/26a9190f-ba3c-4968-a043-d98f8f2938f6/IPd5I8a13M.lottie"
                     loop
                     autoplay
                     className="w-full h-auto"

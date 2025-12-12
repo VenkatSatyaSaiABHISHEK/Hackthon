@@ -3,7 +3,7 @@
 
 import axios from 'axios';
 
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY_1 || import.meta.env.VITE_GEMINI_API_KEY;
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || import.meta.env.VITE_GEMINI_API_KEY_1;
 const GEMINI_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent';
 const PROXY_ENDPOINT = '/api/gemini/analyze'; // Backend proxy (if available)
 const MAX_RETRIES = 1;
